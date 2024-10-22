@@ -63,6 +63,12 @@ type SshKey struct {
 	PrivateKey string `json:"private_key"`
 }
 
+type EncryptedSshKey struct {
+	Login      string `json:"login"`
+	Passphrase string `json:"passphrase"`
+	PrivateKey string `json:"private_key"`
+}
+
 type AccessKeyRole int
 
 const (
