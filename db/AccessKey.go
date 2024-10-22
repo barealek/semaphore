@@ -7,12 +7,13 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"io"
+	"path"
+
 	"github.com/ansible-semaphore/semaphore/pkg/random"
 	"github.com/ansible-semaphore/semaphore/pkg/ssh"
 	"github.com/ansible-semaphore/semaphore/pkg/task_logger"
 	"github.com/ansible-semaphore/semaphore/util"
-	"io"
-	"path"
 )
 
 type AccessKeyType string
