@@ -19,6 +19,7 @@ type AccessKeyType string
 
 const (
 	AccessKeySSH           AccessKeyType = "ssh"
+	AccessKeyEncryptedSSH  AccessKeyType = "encrypted_ssh"
 	AccessKeyNone          AccessKeyType = "none"
 	AccessKeyLoginPassword AccessKeyType = "login_password"
 	AccessKeyString        AccessKeyType = "string"
